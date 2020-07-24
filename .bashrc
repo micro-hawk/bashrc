@@ -117,5 +117,3 @@ fi
 
 #run Color Script at Random
 #colorscript -r
-
-#[ -f ~/.fzf.bash ] && source ~/.fzf.bash

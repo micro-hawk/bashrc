@@ -116,3 +116,4 @@ fi
 
 alias nf="neofetch"
 alias bb="sudo ./.config/awesome/brightness.sh"
+alias vi="vim"

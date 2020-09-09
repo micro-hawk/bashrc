@@ -114,6 +114,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-
-#run Color Script at Random
-#colorscript -r
+alias nf="neofetch"
+alias bb="sudo ./.config/awesome/brightness.sh"

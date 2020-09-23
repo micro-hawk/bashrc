@@ -115,5 +115,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 alias nf="neofetch"
-alias bb="sudo ./.config/awesome/brightness.sh"
+alias bb="sudo ~/.config/awesome/brightness.sh"
 alias vi="vim"
+alias ht="htop"
+alias ba="cd .."

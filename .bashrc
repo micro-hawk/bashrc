@@ -119,3 +119,7 @@ alias bb="sudo ~/.config/awesome/brightness.sh"
 alias vi="vim"
 alias ht="htop"
 alias ba="cd .."
+
+alias sublimetext="/opt/sublime_text_3/sublime_text"
+
+

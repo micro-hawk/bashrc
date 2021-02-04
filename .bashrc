@@ -90,9 +90,9 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='exa -la'
 alias la='ls -A'
-alias l='ls -CF'
+alias l='exa -lGF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -114,6 +114,10 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+### RANDOM COLOR SCRIPT ###
+colorscript random
+
+
 alias nf="neofetch"
 alias bb="sudo ~/.config/awesome/brightness.sh"
 alias vi="vim"
@@ -121,5 +125,4 @@ alias ht="htop"
 alias ba="cd .."
 
 alias sublimetext="/opt/sublime_text_3/sublime_text"
-
 
